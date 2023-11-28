@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Blake Branvold</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        .blog-header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+            max-width: 1300px;
+            margin: auto;
+            position: relative;
+        }
+
+        .blog-container {
+            max-width: 1300px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background-color: #fff;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+
+        .blog-title {
+            color: #ffffff;
+            margin-top: 20px;
+        }
+
+        .blog-subtitle {
+            color: #666;
+        }
+
+        .blog-image {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 1rem;
+        }
+
+        .blog-paragraph {
+            line-height: 1.6;
+        }
+
+        .blog-tag {
+            background-color: #333;
+            color: #fff;
+            padding: 0.2rem 0.5rem;
+            border-radius: 3px;
+            font-size: 0.8rem;
+            margin-bottom: 1rem;
+            display: inline-block;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Nav -->
+    <nav id="nav" style="position: sticky;">
+        <ul class="container">
+            <li><a href="index.html">Home</a></li>
+        </ul>
+    </nav>
+
+    <p class="blog-paragraph">
+
+        I decided to join my friend Charles Moloney in working to develop a great UI for our User Interfaces class. At first, we
+        didn’t really know what type of user interface to design. We threw around a few ideas, but we weren’t having any luck. I
+        had been sitting on an idea for a cruise vacation aggregator like Google Flights, and we eventually decided to work on
+        that. We worked very closely with each other, with few discrete responsibilities only belonging to one person. Charles
+        is a little better at the more in-depth Figma things like component libraries, so he leaned into that aspect a little
+        more, but the project is a product of mutual input and creativity. Nearly every aspect of the project is a result of us
+        meeting in-person in a study room and just hammering it out while discussing potential ideas and any problems that we
+        might come across.
+        <br>
+        Before going all in on our cruise aggregator site, we looked at some existing competing products. We were happy to see
+        that a smooth, approachable UI like that of Google Flights was very, very far from existing multi-line cruise booking
+        solutions. Existing solutions are either very densely-designed and full of textboxes or had a used-car-dealship type
+        vibe that felt sleazy and dishonest. I have used Google Flights quite often to browse for and compare flights, and we
+        felt that a similar, fluid solution would be a great addition to the marketplace. Prospective cruise customers likely
+        driven off by competing UI’s unapproachableness or sleaziness could find safe haven in a more honest, simple solution.
+        <br>
+        Our target device type is web for desktop (with some mobile functionality), which is also the primary means of accessing
+        the Google Flights website. This is the best choice for our design because a cruise purchase is a big deal for people,
+        one best made outside of the more casual mobile environment.
+        <br>
+        We wrote a couple of user stories to gain further insight into the product. One story we wrote to help inspire our
+        design outlines a similar situation to one I faced personally. A college student faces an upcoming break in his
+        coursework and would like to take advantage of the spare time to go on a relaxing, economical vacation.
+        <br>
+        After deciding on our product and stories, we began to sketch out some ideas. The following is what we were able to come
+        up with at this early stage in the project:
+        <br>
+        IMAGES OF F1 AND F2 FROM THE SKETCHES
+        <br>
+        We also made an early Figma design for the project.
+        <br>
+        EARLY FIGMA EMBED
+        <br>
+        After our first iteration, we created a design system for continuing prototypes. We had to make various important
+        decisions for what to include and leave out of our design system, as our choices would likely be reflected throughout
+        the entire prototypes that we would be building. One important choice that we made was that of fonts and font sizing. We
+        had a few components in mind for our pages, such as an individual cruise info tab, and we designed our font sizings to
+        match what looked nice in individual components. This left us with some larger and smaller fonts sizes that got the job
+        done initially.
+        <br>
+        Another choice we made was surrounding the color scheme and logo for the project. We threw around a few different ideas,
+        like a white background or red coloring, and we used some AI-generated images to help us ideate on color and logos.
+        Eventually, ChatGPT spit out a really cool minimalist logo with a cruise ship with a dark blue background and lighter
+        colored waves. Not only did we decide to modify and use the logo, we also adopted the colors generated (with some minor
+        alterations).
+        <br>
+        Another crucial aspect of the design system was our component to display an individual cruise (which eventually evolved
+        into our generic text box with a border). We looked at some other cruise listings and the most important information to
+        our prospective users. We made a box (defined by a bright border) that contained all the information necessary for a
+        single cruise and a button to go to the page for that individual cruise option.
+        <br>
+        POTENTIAL OTHER OPTION FOR DESIGN SYSTEMS: US USING BREADCRUMBS AND NOT A HUGE MENU AT THE TOP
+        <br>
+        Below is embedded the first full prototype developed using the design system. Below that is a quick walkthrough of that
+        prototype.
+        <br>
+        DESIGN SYSTEM INCLUDED PROTOTYPE EMBED
+        <br>
+        First, start at the Home Page. You’ll be able to press the play button to see the prototype function with many buttons
+        functioning as you might expect.
+        <br>
+        After completing the initial prototype, we performed a colleague assessment of it. That involved identifying various
+        issues, organizing them, assigning importances and effort-required to those issues, and finally choosing what issues to
+        fix.
+        <br>
+        After talking with my colleague, we found some really important areas for improvement and areas where we were doing
+        well. The prototype’s strengths were definitely its minimalism and navigability. However, the overall purpose of the
+        site was unclear on the home page, and some of our designs got a little “hard on the eyes” due to their contrast and
+        border sizes. We decided to adjust border sizes on our text boxes and font size within those text boxes to make each
+        component less crowded. These changes seemed to succeed in making the prototype less hard on the eyes and easier to
+        interact with.
+        <br>
+        After the colleague assessment, we performed more formal user tests. Our user testers involved people who fit the
+        characters in our stories; college students and people with a passing interest in engineering. We made a script that we
+        ran through with the user and got their consent to get relevant information for the test, then we let them mess around
+        with the home page for a bit. Finally, we gave them a specific task (book a cruise on a certain date) and let them do it
+        at their own pace.
+        <br>
+        Some themes from our user tests include a lack of necessary booking information (like the cruise line of a specific
+        ship), some confusing function overlap, and general trustworthiness but lacking forthcomingness. Here’s a list of some
+        specific issues we committed to changing and the actual changes we ended up making:
+        <br>
+        The results of advanced searches didn’t display that they came from an advanced search, it seemed like they just were a
+        regular search. Our solution was to make results of advanced searches more explicit by having custom search box tokens
+        (like a $ symbol), similar to the results of an advanced Google search.
+        <br>
+        There was still too much eye strain on some pages. The ease of use and visibility of the pages this affected was very
+        important to us, so we needed to address it. We chose to make the borders even less visible, reduce eye strain even
+        more.
+        <br>
+        The font looked unprofessional. Since one of our core values of the project is respect, we wanted to emphasize this
+        value in every aspect of the project, including the font. We switched up the font in a few key areas.
+        <br>
+        The search glass icon didn’t actually go to the search page. This is a minor but important feature that should be
+        included even in basic websites, so we needed to fix it immediately. We added that functionality.
+        <br>
+        The advanced search options were unclear which were being active and which were not. The autonomy of users was very
+        important to us, and even though that power was being provided to users, unclear design was taking the full
+        functionality away from users. We changed up our design system a bit to better reflect which filters were being used.
+        <br>
+        PROTOTYPE AFTER USER FEEDBACK CHANGES EMBED
+        <br>
+        Our two core values for our UI are honesty and respect. We believe that these values have been adhered to in every
+        aspect of our design. Our minimalist but forthcoming pages don’t try and lure in users with deals and fake discounts. We
+        give users true and complete information about cruises, including honest thoughts, to give them a full picture of what
+        cruises they might want to book and which they might want to stay away from. The colors and logo are calming (or at the
+        very least non-aggressive) and reflect our site’s only purpose, helping people find their perfect cruise. Our UI doesn’t
+        waste user time, and it gives them freedom to make their right choice in cruising
+
+
+    </p>
+
+    <header class="blog-header">
+        <h1 class="blog-title">Blog Post Title</h1>
+    </header>
+    <div class="blog-container">
+        <div class="blog-tag">#BlogTag</div>
+
+        <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450"
+            src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fa4a0NdZovighJIY8VyJZRl%2FContour-Cruising%3Ftype%3Ddesign%26node-id%3D0%253A1%26mode%3Ddesign%26t%3DSq0tFn7ro20arvec-1"
+            allowfullscreen></iframe>
+
+        <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450"
+            src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FIH2Z9AxOGVPIL63aEkRY8r%2FMockup%3Ftype%3Ddesign%26node-id%3D0%253A1%26mode%3Ddesign%26t%3DOm5aWxn5PWBWuRRU-1"
+            allowfullscreen></iframe>
+
+        <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450"
+            src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FDzSqKgy6NAGCXHWPoEerSE%2FPrototype%3Ftype%3Ddesign%26node-id%3D0%253A1%26mode%3Ddesign%26t%3D769qJ0vyXM7pQIh3-1"
+            allowfullscreen></iframe>
+
+        <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450"
+            src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FXxe1Mt7T6OMHCjlZ9HAgU1%2FRe-Revised-Prototype%3Ftype%3Ddesign%26node-id%3D0%253A1%26mode%3Ddesign%26t%3Do4IjEgs2JaFZEpym-1"
+            allowfullscreen></iframe>
+
+    </div>
+
+</body>
+
+</html>
