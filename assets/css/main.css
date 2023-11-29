@@ -1934,8 +1934,12 @@ input, select, textarea {
 			left: 2em;
 			top: 2em;
 			margin: -4em 0 4em -4em;
+			width: auto;
+		}
+
+		.box.style2 .image.featured img {
 			width: 100%;
-			height: 200px;
+			height: auto;
 		}
 
 /* Icons */
