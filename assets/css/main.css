@@ -2374,12 +2374,12 @@ input, select, textarea {
 				}
 
 				.box.style2 {
-					width: 32em;
+					width: 32em !important;
 					margin-left: auto !important;
 					margin-right: auto !important;
 				}
 				.box.style3 {
-					max-width: 32em;
+					max-width: 32em; 
 					margin-left: auto !important;
 					margin-right: auto !important;
 				}
