@@ -430,6 +430,11 @@
 			width: 100%;
 		}
 
+		img2 {
+			display: block;
+			width: 32em;
+		}
+
 		&.fit {
 			display: block;
 			width: 100%;
@@ -701,7 +706,7 @@
 				left: 2em;
 				top: 2em;
 				margin: -4em 0 4em -4em;
-				width: auto;
+				// width: auto;
 			}
 		}
 	}
