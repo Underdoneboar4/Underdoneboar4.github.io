@@ -1629,6 +1629,10 @@ input, select, textarea {
 
 		.image img {
 			display: block;
+			width: 32em;
+		}
+		.image img2 {
+			display: block;
 			width: 100%;
 		}
 
