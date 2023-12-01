@@ -1630,7 +1630,6 @@ input, select, textarea {
 		.image img {
 			display: block;
 			width: 100%;
-			height: auto;
 		}
 		.image img2 {
 			display: block;
@@ -2227,11 +2226,11 @@ input, select, textarea {
 				padding: 8em 0;
 			}
 
-				#top .image {
+				/* #top .image {
 					width: 24em;
 					height: 24em;
 					margin: 0;
-				}
+				} */
 
 	}
 
