@@ -1629,7 +1629,7 @@ input, select, textarea {
 
 		.image img {
 			display: block;
-			width: 32em;
+			width: 100%;
 		}
 		.image img2 {
 			display: block;
@@ -1642,6 +1642,12 @@ input, select, textarea {
 		}
 
 		.image.featured {
+			display: block;
+			width: 32em;
+			margin: 0 0 2em 0;
+		}
+
+		.image.featured2 {
 			display: block;
 			width: 100%;
 			margin: 0 0 2em 0;
