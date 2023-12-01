@@ -286,9 +286,8 @@ input, select, textarea {
 
 	.row {
 		display: flex;
-		flex-wrap: wrap;
-		box-sizing: border-box;
-		align-items: stretch;
+		flex-direction: column;
+		justify-content: space-between;
 	}
 
 		.row > * {
@@ -1645,13 +1644,13 @@ input, select, textarea {
 			width: 100% !important;
 		}
 
-		.image.featured {
+		.image-featured {
 			display: block;
 			width: 32em;
 			margin: 0 0 2em 0;
 		}
 
-		.image.featured2 {
+		.image-featured2 {
 			display: block;
 			width: 100%;
 			margin: 0 0 2em 0;
