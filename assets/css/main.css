@@ -2364,6 +2364,13 @@ input, select, textarea {
 					left: 20px;
 					top: 20px;
 					margin: -50px 0 50px -40px;
+					width: 32em;
+				}
+				.box .image.featured2 {
+					position: relative;
+					left: 20px;
+					top: 20px;
+					margin: -50px 0 50px -40px;
 					width: auto;
 				}
 
