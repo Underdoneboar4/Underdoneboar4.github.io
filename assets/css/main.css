@@ -1640,6 +1640,10 @@ input, select, textarea {
 			display: block;
 			height: 100%;
 		}
+		.image.frill {
+			display: block;
+			width: 100%;
+		}
 
 		.image.featured {
 			display: block;
