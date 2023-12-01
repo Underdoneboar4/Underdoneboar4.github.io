@@ -437,6 +437,12 @@
 
 		&.featured {
 			display: block;
+			width: 32em;
+			margin: 0 0 2em 0;
+		}
+
+		&.featured2 {
+			display: block;
 			width: 100%;
 			margin: 0 0 2em 0;
 		}
